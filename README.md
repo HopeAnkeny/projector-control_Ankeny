@@ -1,4 +1,4 @@
-projector-control
+projector-control_WDM
 =================
 
-Projector control pages
+Projector control pages for the West Des Moines campus.
