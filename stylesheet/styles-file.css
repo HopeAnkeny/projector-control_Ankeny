@@ -36,6 +36,10 @@
 	{
 		border: 5px solid #808080;
 	}
+.black
+	{
+		border: 5px solid #000000;
+	}
 .bg-black
 	{
 		background-color: #000000;
@@ -45,6 +49,12 @@
 		color: #dddddd;
 	}
 .table-buttons
+	{
+		border: 4px solid black;
+		padding: 8px;
+		text-align: center;
+	}
+.table-gui-buttons
 	{
 		border: 4px solid black;
 		padding: 8px;
@@ -68,7 +78,10 @@
 	{
 		width: 80%;
 	}
-
+.third-width
+	{
+		width: 40%
+	}
 
 .tiny
 	{
@@ -88,7 +101,6 @@
 		display: inline-table;
 		cursor: pointer;
 		transition: all .1s ease;
-		
 		text-decoration: none;
 	}
 
@@ -102,7 +114,6 @@
 		display: inline-table;
 		cursor: default;
 		transition: all .1s ease;
-		
 		text-decoration: none;
 	}
 	
