@@ -127,6 +127,10 @@ var lens_shift_down = 'lens-shift-down';
 var lens_shift_left = 'lens-shift-left';
 var lens_shift_right = 'lens-shift-right';
 var lens_shift_up = 'lens-shift-up';
+var lens_shift_coarse_down = 'lens-shift-coarse-down';
+var lens_shift_coarse_left = 'lens-shift-coarse-left';
+var lens_shift_coarse_right = 'lens-shift-coarse-right';
+var lens_shift_coarse_up = 'lens-shift-coarse-up';
 var menu_down = 'menu-down';
 var menu_enter = 'menu-enter';
 var menu_left = 'menu-left';
@@ -194,6 +198,10 @@ actions that are supported on at least one device:
 	lens-shift-left
 	lens-shift-right
 	lens-shift-up
+	lens-shift-coarse-down
+	lens-shift-coarse-left
+	lens-shift-coarse-right
+	lens-shift-coarse-up
 	menu-down
 	menu-enter
 	menu-left
@@ -414,6 +422,18 @@ function extronBox (address, port, deviceType, action)
 			case 'lens-shift-up':
 				command = 'C5D';
 				break;
+			case 'lens-shift-coarse-down':
+				command = 'C5E%0DC5E';
+				break;
+			case 'lens-shift-coarse-left':
+				command = 'C5F%0DC5F';
+				break;
+			case 'lens-shift-coarse-right':
+				command = 'C60%0DC60';
+				break;
+			case 'lens-shift-coarse-up':
+				command = 'C5D%0DC5D';
+				break;
 			case 'menu-down':
 				command = 'C3D';
 				break;
@@ -578,35 +598,12 @@ function extronBox (address, port, deviceType, action)
 		command = '%02' + command + '%03';
 	} // end if(); for device
 
-	if (deviceType == 'sharpTV')
-	{
-		
-		var urlStart = urlStart + 'RS|';
-		
-		/*
-			This switch block takes the action you want
-			to execute, and turns it into the
-			the corresponding serial command.
-		*/
-		switch (action)
-		{
-			case 'power-off':
-				command = 'POWR0   ';
-				break;
-			case 'power-on':
-				command = 'POWR1   ';
-				break;
-		}
-		
-		// Add in Sharp's funny little end byte:
-		command = command + '%0D';
-	} // end if(); for device
-	
 	var urlFull = urlStart + command
 	// un-comment next line, when you need to debug:
 	// alert (urlFull);
 	httpGet (urlFull);
 }
+
 
 
 
