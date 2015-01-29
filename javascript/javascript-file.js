@@ -1,15 +1,15 @@
 function httpGet (theUrl)
-	{
-		var xmlHttp = null;
+{
+	var xmlHttp = null;
     	xmlHttp = new XMLHttpRequest();
     	xmlHttp.open( "GET", theUrl, true );
     	xmlHttp.send();
-    }
+}
 
 function goBack()
-	{
-		window.history.back();
-	}
+{
+	window.history.back();
+}
 
 
 /*			case '':
