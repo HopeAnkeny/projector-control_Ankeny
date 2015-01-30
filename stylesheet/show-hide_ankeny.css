@@ -1,14 +1,8 @@
 	
 	#mainTop{display:block;}
 
-	#bridgeMainLeft{display:none;}
-	#bridgeMainRight{display:none;}
-	#bridgeMainCenter{display:none;}
-	#bridgeFoldbackCenter{display:none;}
-	#chapelMainCenter{display:none;}
-	#chapelMainSide{display:none;}
-	#chapelFoldbackSide{display:none;}
-	#gymMainSide{display:none;}
+	#wcMainScreen{display:none;}
+	#wcFoldbackScreen{display:none;}
 
 	/*
 		that's the "main" segment code,
@@ -16,73 +10,24 @@
 	*/
 
 	/*
-		,
-		start of bridge;
+		start of wc;
 	*/
-	
-	#bridgeMainLeft_tc{display:none;}
-	#bridgeMainLeft_mc{display:none;}
-	#bridgeMainLeft_fz{display:none;}
-	#bridgeMainLeft_ks{display:none;}
-	#bridgeMainLeft_ls{display:none;}
 
-	#bridgeMainRight_tc{display:none;}
-	#bridgeMainRight_mc{display:none;}
-	#bridgeMainRight_fz{display:none;}
-	#bridgeMainRight_ks{display:none;}
-	#bridgeMainRight_ls{display:none;}
+	#wcMainScreen_tc{display:none;}
+	#wcMainScreen_mc{display:none;}
+	#wcMainScreen_fz{display:none;}
+	#wcMainScreen_ks{display:none;}
+	#wcMainScreen_ls{display:none;}
 
-	#bridgeMainCenter_tc{display:none;}
-	#bridgeMainCenter_mc{display:none;}
-	#bridgeMainCenter_fz{display:none;}
-	#bridgeMainCenter_ks{display:none;}
-	#bridgeMainCenter_ls{display:none;}
-
-	#bridgeFoldbackCenter_tc{display:none;}
-	#bridgeFoldbackCenter_mc{display:none;}
-	#bridgeFoldbackCenter_fz{display:none;}
-	#bridgeFoldbackCenter_ks{display:none;}
-	#bridgeFoldbackCenter_ls{display:none;}
+	#wcFoldbackScreen_tc{display:none;}
+	#wcFoldbackScreen_mc{display:none;}
+	#wcFoldbackScreen_fz{display:none;}
+	#wcFoldbackScreen_ks{display:none;}
+	#wcFoldbackScreen_ls{display:none;}
 
 	/*
-		end of bridge,
-		start of chapel;
+		end of wc,
 	*/
-
-	#chapelMainCenter_tc{display:none;}
-	#chapelMainCenter_mc{display:none;}
-	#chapelMainCenter_fz{display:none;}
-	#chapelMainCenter_ks{display:none;}
-	#chapelMainCenter_ls{display:none;}
-
-	#chapelMainSide_tc{display:none;}
-	#chapelMainSide_mc{display:none;}
-	#chapelMainSide_fz{display:none;}
-	#chapelMainSide_ks{display:none;}
-	#chapelMainSide_ls{display:none;}
-
-	#chapelFoldbackSide_tc{display:none;}
-	#chapelFoldbackSide_mc{display:none;}
-	#chapelFoldbackSide_fz{display:none;}
-	#chapelFoldbackSide_ks{display:none;}
-	#chapelFoldbackSide_ls{display:none;}
-
-	/*
-		end of chapel,
-		start of gym;
-	*/
-
-	#gymMainSide_tc{display:none;}
-	#gymMainSide_mc{display:none;}
-	#gymMainSide_fz{display:none;}
-	#gymMainSide_ks{display:none;}
-	#gymMainSide_ls{display:none;}
-	
-	/*
-		end of gym,
-		;
-	*/
-
 
 	
 	/*

@@ -32,7 +32,6 @@ var wcMainScreen_ls = 'wcMainScreen_ls';
 var wcFoldbackScreen_tc = 'wcFoldbackScreen_tc';
 var wcFoldbackScreen_mc = 'wcFoldbackScreen_mc';
 var wcFoldbackScreen_fz = 'wcFoldbackScreen_fz';
-var wcFoldbackScreen_ks = 'wcFoldbackScreen_ks';
 var wcFoldbackScreen_ls = 'wcFoldbackScreen_ls';
 
 
@@ -64,7 +63,6 @@ function hideWC(id) {
 	hideStuff(wcFoldbackScreen_tc);
 	hideStuff(wcFoldbackScreen_mc);
 	hideStuff(wcFoldbackScreen_fz);
-	hideStuff(wcFoldbackScreen_ks);
 	hideStuff(wcFoldbackScreen_ls);
 }
 // end of "WC"
