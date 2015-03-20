@@ -35,7 +35,7 @@ function populateVars (address) {
 		case 'worshipCenter':
 			foldbackScreen = 'xx';
 			mainScreen = 'yy';
-			worshipCenter = 'http://10.50.95.20/file.html';
+			worshipCenter = 'http://10.50.95.35/file.html';
 			break;
 	}
 }
