@@ -64,6 +64,8 @@ Done!
 
 var panasonicPJLink = 'panasonicPJLink';
 var sanyoPLC = 'sanyoPLC';
+var sharpTV = 'sharpTV';
+
 var auto_adjust = 'auto-adjust';
 var blank_off = 'blank-off';
 var blank_on = 'blank-on';
