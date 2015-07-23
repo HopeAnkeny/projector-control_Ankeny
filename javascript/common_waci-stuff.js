@@ -656,11 +656,11 @@ function waciBox (address, port, deviceType, action)
 	Code examples:
 	
 	
-	Bridge main house left (Panasonic) lens shift up:
-	extronBox ( bridge, mainLeft, panasonicPJLink, lens-shift-up );
+	Worship Center main house left (Panasonic) lens shift up:
+	waciBox ( wc, mainLeft, nope, lens-shift-up );
 	
-	Chapel center (Sanyo) zoom out:
-	extronBox ( chapel, mainCenter, sanyoPLC, zoom-out );
+	Worship Center center-center zoom out:
+	waciBox ( wc, centerCenter, nope, zoom-out );
 	
 */
 
