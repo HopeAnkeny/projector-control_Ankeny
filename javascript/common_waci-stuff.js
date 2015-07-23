@@ -419,35 +419,36 @@ function waciBox (address, port, deviceType, action)
 				command = 'AUTOADJUST';
 				break;
 			case 'blank-off':
-				command = 'BLANKOFF';
+				command = 'blankoff';
 				break;
 			case 'blank-on':
-				command = 'BLANKON';
+				command = 'blankon';
 				break;
 			case 'focus-in':
-				command = 'FOCUSIN';
+				command = 'focus_in';
 				break;
 			case 'focus-out':
-				command = 'FOCUSOUT';
+				command = 'focus_out';
 				break;
 			case 'freeze-off':
-				command = 'FREEZEOFF';
+				command = 'freezeoff';
 				break;
 			case 'freeze-on':
-				command = 'FREEZEON';
+				command = 'freezeon';
 				break;
 			case 'input-1':
-				command = 'INPUT1';
+				command = 'input_1';
 				break;
 			case 'input-2':
-				command = 'INPUT2';
+				command = 'input_2';
 				break;
 			case 'input-3':
-				command = 'INPUT3';
+				command = 'input_3';
 				break;
 			case 'input-4':
-				command = 'INPUT4';
+				command = 'input_4';
 				break;
+/*
 			case 'keystone-down':
 				command = 'KEYSTONEDOWN';
 				break;
@@ -460,18 +461,20 @@ function waciBox (address, port, deviceType, action)
 			case 'keystone-up':
 				command = 'KEYSTONERIGHT';
 				break;
+*/
 			case 'lens-shift-down':
-				command = 'LENSSHIFTDOWN';
+				command = 'lensshift_down';
 				break;
 			case 'lens-shift-left':
-				command = 'LENSSHIFTLEFT';
+				command = 'lensshift_left';
 				break;
 			case 'lens-shift-right':
-				command = 'LENSSHIFTRIGHT';
+				command = 'lensshift_right';
 				break;
 			case 'lens-shift-up':
-				command = 'LENSSHIFTUP';
+				command = 'lensshift_up';
 				break;
+/*
 			case 'lens-shift-coarse-down':
 				command = 'LENSSHIFTCOARSEDOWN';
 				break;
@@ -484,38 +487,39 @@ function waciBox (address, port, deviceType, action)
 			case 'lens-shift-coarse-up':
 				command = 'LENSSHIFTCOARSEUP';
 				break;
+*/
 			case 'menu-down':
-				command = 'MENUDOWN';
+				command = 'point_down';
 				break;
 			case 'menu-enter':
-				command = 'MENUENTER';
+				command = 'enter';
 				break;
 			case 'menu-left':
-				command = 'MENULEFT';
+				command = 'point_left';
 				break;
 			case 'menu-off':
-				command = 'MENUOFF';
+				command = 'menuoff';
 				break;
 			case 'menu-on':
-				command = 'MENUON';
+				command = 'menuon';
 				break;
 			case 'menu-right':
-				command = 'MENURIGHT';
+				command = 'point_right';
 				break;
 			case 'menu-up':
-				command = 'MENUUP';
+				command = 'point_up';
 				break;
 			case 'power-off':
-				command = 'POWEROFF';
+				command = 'off';
 				break;
 			case 'power-on':
-				command = 'ZOOMPOWERON';
+				command = 'on';
 				break;
 			case 'zoom-in':
-				command = 'ZOOMIN';
+				command = 'zoom_in';
 				break;
 			case 'zoom-out':
-				command = 'ZOOMOUT';
+				command = 'zoom_out';
 				break;
 		}
 		
